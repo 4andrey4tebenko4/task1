@@ -10,9 +10,10 @@ li {
   font-size: $f-size;
 }
 
-.tree {
-  span {
-    @include hover(font-weight, bold)
-  }
+ul > li:hover {
+  font-weight: bold;
 }
 
+ul > li > ul {
+  font-weight: normal;
+}
