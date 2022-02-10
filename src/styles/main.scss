@@ -1,0 +1,18 @@
+@import "utils";
+@import "fonts";
+@import "typography";
+
+body {
+  background: $c-gray;
+}
+
+li {
+  font-size: $f-size;
+}
+
+.tree {
+  span {
+    @include hover(font-weight, bold)
+  }
+}
+
